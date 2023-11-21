@@ -1,0 +1,1 @@
+Projeto visa criar uma Extensão do Chrome que mostre ao usuário o tempo desde a última mensagem enviada nas conversas do Omni
