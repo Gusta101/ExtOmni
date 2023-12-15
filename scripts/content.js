@@ -1,4 +1,4 @@
-const article = querySelector("article");
+const article = document.querySelector("article");
 
 if (article) {
     const text = article.textContent;
@@ -13,7 +13,7 @@ if (article) {
     badge.textContent = `⏱️ ${readingTime} min read`;
 
     const heading = article.querySelector("h1");
-    const date = article.querySlector("time")?.parentNode;
+    const date = article.querySelector("time")?.parentNode;
 
     (date ?? heading).insertAdjacentElement("afterend", badge);
 }
